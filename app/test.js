@@ -3,7 +3,10 @@ const feature = (a, b) => {
   return a + b
 }
 
-const random = (a) => a /  b
+const random = (a) => {
+  console.log(a / b)
+  return a / b
+}
 
 const feature2 = () => a *   b
 
