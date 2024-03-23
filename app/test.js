@@ -5,4 +5,10 @@ const feature = (a, b) => {
 
 const feature2 = () => a *   b
 
-module.exports = feature
+const subFeature = () => {
+  const a = 1
+  const b = 2
+  return a +  b
+}
+
+module.exports = subFeature
