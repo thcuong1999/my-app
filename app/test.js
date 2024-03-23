@@ -3,4 +3,6 @@ const feature = (a, b) => {
   return a + b
 }
 
+const feature2 = () => a *   b
+
 module.exports = feature
