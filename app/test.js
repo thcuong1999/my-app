@@ -17,4 +17,9 @@ const subFeature = () => {
   return a +  b
 }
 
+const subfeature2 = (b, c) => {
+  
+  return b % c;
+}
+
 module.exports = { subFeature, random };
