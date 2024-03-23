@@ -19,6 +19,7 @@ const subFeature = () => {
 
 const subfeature2 = (b, c) => {
   
+  console.log(b % c)
   return b % c;
 }
 
