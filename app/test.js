@@ -10,4 +10,10 @@ const random = (a) => {
 
 const feature2 = () => a *   b
 
-module.exports = random;
+const subFeature = () => {
+  const a = 1
+  const b = 2
+  return a +  b
+}
+
+module.exports = { subFeature, random };
