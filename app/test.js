@@ -8,6 +8,7 @@ const feature2 = () => a *   b
 const subFeature = () => {
   const a = 1
   const b = 2
+  console.log(a / b)
   return a +  b
 }
 
